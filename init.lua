@@ -1,0 +1,2 @@
+require("ramtin")
+print("hello")
