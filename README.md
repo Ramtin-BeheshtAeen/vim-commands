@@ -1,31 +1,33 @@
 ---
 
 # Vim Commands
+---
+title: Vim Cheatsheet
+---
 
+# Vim Cheat Sheet
 
-summary: |
-  | **Category**          | **Command**                       | **Description**                                        |
-  |-----------------------|-----------------------------------|--------------------------------------------------------|
-  | **Undo / Redo**       | `u`                               | Undo last change                                       |
-  |                       | `Ctrl + r`                        | Redo last undone change                                |
-  | **Line Motion**       | `k` / `j`                         | Move up / down one line                                |
-  |                       | `n + k` / `n + j`                 | Move *n* lines up / down                               |
-  |                       | `d3j`                             | Delete 3 lines downward                                |
-  | **Word Motion**       | `w`                               | Move forward by word                                   |
-  |                       | `b`                               | Move backward by word                                  |
-  | **Character Motion**  | `0` / `$`                         | Start / end of line                                    |
-  |                       | `t<char>`                         | Move **before** the next occurrence of `char`          |
-  |                       | `_`                               | Go to first non-blank character of line                |
-  |                       | `%`                               | Jump to matching bracket or function end               |
-  |                       | `,` / `;`                         | Repeat search forward / backward                       |
-  | **Text Objects**      | `vi(` / `vi)`                     | Select inside parentheses                              |
-  |                       | `ci(` / `ci)`                     | Change inside parentheses                              |
-  |                       | `va]`                             | Select around square brackets                          |
-  | **Search**            | `/word`                           | Search for "word"                                      |
-  |                       | `n` / `N`                         | Repeat search forward / backward                       |
-  | **Plugins**           | `fzf`                             | Fuzzy file finder                                      |
-  |                       | `harpoon`                         | Quick navigation between files                         |
-
+| **Category**          | **Command**                       | **Description**                                        |
+|-----------------------|-----------------------------------|--------------------------------------------------------|
+| **Undo / Redo**       | `u`                               | Undo last change                                       |
+|                       | `Ctrl + r`                        | Redo last undone change                                |
+| **Line Motion**       | `k` / `j`                         | Move up / down one line                                |
+|                       | `n + k` / `n + j`                 | Move *n* lines up / down                               |
+|                       | `d3j`                             | Delete 3 lines downward                                |
+| **Word Motion**       | `w`                               | Move forward by word                                   |
+|                       | `b`                               | Move backward by word                                  |
+| **Character Motion**  | `0` / `$`                         | Start / end of line                                    |
+|                       | `t<char>`                         | Move **before** the next occurrence of `char`          |
+|                       | `_`                               | Go to first non-blank character of line                |
+|                       | `%`                               | Jump to matching bracket or function end               |
+|                       | `,` / `;`                         | Repeat search forward / backward                       |
+| **Text Objects**      | `vi(` / `vi)`                     | Select inside parentheses                              |
+|                       | `ci(` / `ci)`                     | Change inside parentheses                              |
+|                       | `va]`                             | Select around square brackets                          |
+| **Search**            | `/word`                           | Search for "word"                                      |
+|                       | `n` / `N`                         | Repeat search forward / backward                       |
+| **Plugins**           | `fzf`                             | Fuzzy file finder                                      |
+|                       | `harpoon`                         | Quick navigation between files                         |
 
 ---
 
