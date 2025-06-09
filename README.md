@@ -91,3 +91,13 @@ title: Vim Cheatsheet
 * **Harpoon** (Quick file navigation plugin)
 
 ---
+
+
+## Harpoon Shortcuts
+
+| **Shortcut**              | **Action**                                  |
+|---------------------------|---------------------------------------------|
+| `<leader> + a`            | Add the current file to the Harpoon list    |
+| `Ctrl + e`                | Show the Harpoon file list                  |
+| `Ctrl + q` / `w` / `e` / `r` | Navigate to tab 1 / 2 / 3 / 4 respectively |
+
