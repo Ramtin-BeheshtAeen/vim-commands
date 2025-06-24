@@ -1,4 +1,35 @@
+copy configs to the nvim config folder
+```bash
+git clone https://github.com/Ramtin-BeheshtAeen/vim-commands.git ~/.config/nvim
+```
+
+isntall [packer.nvim](https://github.com/wbthomason/packer.nvim/blob/master/README.md):
+```bash
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+open up pakcer.lua insode nvim config folder using `nvim lua/ramtin/packer.lua and run `:so` command inside nvim
+
+if manson returned error, add the following line to end of the packer.lua:
+```lua
+use {
+  "williamboman/mason.nvim",
+  config = function()
+    require("mason").setup()
+  end
+}
+
+use {
+  "williamboman/mason-lspconfig.nvim",
+  after = "mason.nvim",
+  config = function()
+    require("mason-lspconfig").setup()
+  end
+}
+```
+
 ---
+
 
 # Vim Commands
 ---
